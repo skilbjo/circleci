@@ -9,4 +9,5 @@
                              [lein-kibit "0.1.6"]]}
              :uberjar {:aot :all}}
   :plugins [[speclj "3.3.2"]]
+  :main gilded-rose.core
   :test-paths ["spec"])
